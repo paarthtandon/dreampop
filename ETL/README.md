@@ -6,9 +6,9 @@ In this section, I first download the song data from the Spotify API. Then, I bo
 
 Since "dreampop" is not an official genre on Spotify, I had to improvise a way to collect data about dreampop songs. I did this by using Spotify's search function. I used the Spotify API to search playlists with the query "dream pop":
 
-`playlists = sp.search(q='dream pop', type='playlist', limit=50, offset=0)`
+`playlists = sp.search(q='dreampop', type='playlist', limit=50, offset=0)`
 
-From there, I generated a set of track IDs from the playlists, resulting in 8,178 dreampop songs. Spotify's API can provide audio features about a track given the ID of the track. This includes sonic features about the track such as loudness, instrumentalness, etc. It is limited by how many tracks you can analyze at a time (100), so I first had to split the tracks into 100 long chunks. Then I retrieved the audio features for each chunk:
+From there, I generated a set of track IDs from the playlists, resulting in 9,317 dreampop songs. Spotify's API can provide audio features about a track given the ID of the track. This includes sonic features about the track such as loudness, instrumentalness, etc. It is limited by how many tracks you can analyze at a time (100), so I first had to split the tracks into 100 long chunks. Then I retrieved the audio features for each chunk:
 
 `audio_features = sp.audio_features(tracks=chunk)`
 
