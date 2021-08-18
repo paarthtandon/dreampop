@@ -14,6 +14,6 @@ Personally, I think the easiest way to understand dreampop is by listening to it
 
 Each section folder contains its own README that goes further in depth. Here is an overview of the project structure:
 
-**EDA (Extract, Transform, Load):** Download data using the Spotify API, upload it to personal PostgreSQL database.\
+**ETL (Extract, Transform, Load):** Download data using the Spotify API, upload it to personal PostgreSQL database.\
 **EDA (Exploratory Data Analysis):** Visualize features using descriptive statistics to understand the data better.\
 **Models (Classification, Clustering):** Create models that can help us determine whether a song is dreampop.
