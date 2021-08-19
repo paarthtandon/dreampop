@@ -42,7 +42,7 @@ Classification:
 | Logistic Regression         | 0.5166                        |
 
 Feature Importance:
-| feature          | importance |
+| Feature          | Importance |
 |------------------|------------|
 | instrumentalness | 0.1466     |
 | speechiness      | 0.0489     |

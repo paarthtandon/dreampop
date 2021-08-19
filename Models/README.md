@@ -22,7 +22,7 @@ As you can see, the random forest model performed very well. Logistic regression
 
 We can use the random forest model to determine the importance of each feature. Here are the scores for each feature:
 
-| feature          | importance |
+| Feature          | Importance |
 |------------------|------------|
 | instrumentalness | 0.1466     |
 | speechiness      | 0.0489     |
