@@ -42,4 +42,4 @@ Seems like instrumentalness was overwhelmingly the most important feature, and l
 
 # Clustering
 
-Clustering was attempted, but nothing of value was found. If you are interested in seeing what I did, check out `clustering.ipynb`.
+Clustering was attempted, but nothing of value was found. This is because this dataset does not have very well defined clusters, which is reasonable considering how varying a genre of music can be. If you are interested in seeing what I did, check out `clustering.ipynb`.
