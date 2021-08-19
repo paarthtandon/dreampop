@@ -28,7 +28,7 @@ Check out `playlist.ipynb` to see how I generated it.
 
 ## Results
 
-For detailed results check out the [models](https://github.com/paarthtandon/dreampop/tree/master/Models) folder. Here are the result tables:
+For detailed results check out the [models](https://github.com/paarthtandon/dreampop/tree/master/models) folder. Here are the result tables:
 
 Classification:
 | Model                       | Average accuracy over 5 folds |
